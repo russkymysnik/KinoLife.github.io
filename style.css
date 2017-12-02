@@ -1,0 +1,202 @@
+#navbar {
+  padding: 0;
+  border: 1px solid black;
+  margin-bottom: 90px;
+}
+
+#navbarSupportedContent {
+  text-align: center;
+}
+
+#news , #top_sidebar, #community_sidebar , #navbar ul li a:hover {
+  background-color: #007BFF;
+  color: white;
+}
+
+.menu {
+  padding: 0;
+  margin-bottom: 15px;
+}
+
+#content a {
+  text-decoration: none;
+}
+
+#content hr {
+  width: 775px;
+}
+
+#content {
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+#news {
+  border: 1px solid #007BFF;
+}
+
+#news a {
+  text-decoration: none;
+}
+
+#news h4{
+  margin-left: 15px;
+  margin-top: 5px;
+}
+
+#top_sidebar {
+  border: 1px solid #007BFF;
+}
+
+#top_sidebar a {
+  text-decoration: none;
+}
+
+#top_films h4 {
+  margin-left: 15px;
+  margin-top: 5px;
+}
+
+#community_sidebar {
+  border: 1px solid #007BFF;
+}
+
+#community_sidebar a {
+  text-decoration: none;
+}
+
+#community_sidebar h4 {
+  margin-left: 15px;
+  margin-top: 5px;
+}
+
+.fa {
+  margin-top: 4px;
+}
+
+#news, #top_sidebar, #community_sidebar {
+  margin-bottom: 20px;
+}
+
+.list-group a:hover {
+   background-color: #007BFF;
+   color: white;
+}
+
+.sidebar_head a:hover {
+   background-color: #007BFF;
+   color: white;
+}
+
+.list-group-item span {
+  float: right;
+}
+
+.list-group-item i {
+  float: right;
+}
+
+.badge {
+  border: 1px solid #007BFF;
+}
+
+.list-group-item:hover .badge {
+  border: 1px solid white;
+}
+
+.new_content {
+  width: 100%;
+}
+
+.new_content h4 {
+  text-align: center;
+  padding: .70rem 1.25rem;
+  margin-bottom: 20px;
+}
+
+.posters ul li {
+  margin-left: 15px;
+  display: inline-block;
+}
+
+.posters ul {
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-bottom: 60px;
+}
+
+.posters li {
+  vertical-align: top;
+  width: 178px;
+}
+
+.posters img {
+  width: 178px;
+  height: 264px;
+}
+
+.name_new {
+  text-align: center;
+  margin-top: 7px;
+}
+
+.age_limit {
+  position: absolute;
+  padding: 1px;
+  margin-top: 236px;
+  margin-left: 3px;
+  color: #C7C7C7;
+  background-color: rgba(0, 0, 0, .5);
+  border-radius: 5px 5px 5px 5px;
+}
+
+.container-fluid {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.copyright {
+  background-color: #F8F9FA;
+  text-align: center;
+}
+
+@media (min-width: 100px) and (max-width: 992px) {
+
+    .sidebar {
+      text-align: center;
+    }
+
+    #news h4, p {
+      margin: 0;
+    }
+
+    #top_films {
+      margin: 0;
+    } 
+
+    #content {
+      text-align: center;
+    }
+
+    .posters ul li {
+      margin-bottom: 30px;
+      width: 185px;
+    }
+
+    .posters ul {
+      text-align: center;
+    }
+
+    .posters img {
+      width: 183px;
+      height: 275px;
+    }
+
+    .age_limit {
+      margin-top: 246px;
+    }
+}
+
+
+
+
